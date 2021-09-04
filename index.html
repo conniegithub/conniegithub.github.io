@@ -5,13 +5,16 @@ layout: default
 <h3>Microorganisms.</h3>
 <p>Choanoflagellates are unicellular flagellate eukaryotes considered to be the closest living relatives of the animals. They have a funnel-shaped collar made of microvilli at the base of a flagellum. Helical beating movement of the flagellum creates water currents that can propel itself through viscous fluids, trapping and engulfing surrounding food particles with the collar of microvilli. Choanoflagellates are of particular interest to evolutionary biologists, as these microorganisms serve as a useful model for reconstructions of the last unicellular ancestor of animals.<br><br>
 
-The goal is to construct a 3D model that simulates the movement of Choanoflagellates in viscous fluids. The body structure of a Choanoflagellate is modeled using a discetized ellipsoidal head, a rotating helical-shaped flagellum, and vector lines of microvilli that follow Hooke’s law to capture its elasticity. Viscous fluid dynamics is modeled using Stokes equations with regularized Stokeslets and the surrounding particles follow the dynamics induced by the interaction of water and the entire body of the Choanoflagellate.<br>
+The goal is to construct a 3D model that simulates the movement of Choanoflagellates in viscous fluids. The body structure of a Choanoflagellate is modeled using a discetized ellipsoidal head, a rotating helical-shaped flagellum, and vector lines of microvilli that follow Hooke’s law to capture its elasticity. Viscous fluid dynamics is modeled using Stokes equations with regularized Stokeslets and the surrounding particles follow the dynamics induced by the interaction of water and the entire body of the Choanoflagellate.<br><br>
+
 The entire simulation model is coded and built from scratch in MATLAB on my own with little guidance from my mentor.</p>
 
 <h3>Birds.</h3>
-<p>
-  
-  Collaborated with two interns to research, collect and analyze data on the strength of association between male bird attractiveness and female bird investment from 31 empirical studies of 20 bird species. Built and improved regression model fit by 12% after incorporating bird phylogenetic tree in R, yielding support for differential allocation and that the degree of polygamy in bird species was an important contributor.</p>
+<p>In the world of birds, males are generally more colorful or ornamented physically than females in most species. Female birds typically select their mates based on the overall attractiveness of the male birds.<br><br>
+
+The goal is to find out if the amount of investment a female bird would put her egg depended on the attractiveness of her mate (differential allocation) and the degree of polygamy. Effect size data from 31 different empirical studies of 20 bird species is collected. Given that close related species are more closely associated with each other, a phylogenetic tree of bird species is employed in a Generalized Least Squares Model to account for the correlated structure. Predictors of the model include experiment type, degree of polygamy, features that indicate egg investment (i.e. androgens, egg size, yolk mass, etc.), and interaction terms.<br><br>
+
+The regression model is coded and built in R in collaboration with my mentor. Model fit is improved by 12% after incorporating the bird phylogenetic tree and it yields support for differential allocation and that the degree of polygamy in bird species is an important contributor.</p>
 
 <h3>Value at Risk.</h3>
 <p>Studied value at risk (VaR) of a portfolio of stocks using historical simulation and model-building techniques on 15 years of daily stock price data from Yahoo! Finance covering the stressed period of the 2007 financial crisis.
