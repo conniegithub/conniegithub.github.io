@@ -1,3 +1,5 @@
 remote_theme: poole/hyde
 title: Connie's Blog
 description: Welcome to my page!
+
+theme: jekyll-theme-architect
