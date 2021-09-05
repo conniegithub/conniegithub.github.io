@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<h1>My Favorite Past Projects</h1>
+<h4>(that shaped who I am today and continue to inspire who I will be tomorrow)</h4><br>
+
+<h3>Microorganisms.</h3>
+<p>Choanoflagellates are unicellular flagellate eukaryotes considered to be the closest living relatives of the animals. They have a funnel-shaped collar made of microvilli at the base of a flagellum. Helical beating movement of the flagellum creates water currents that can propel itself through viscous fluids, trapping and engulfing surrounding food particles with the collar of microvilli. Choanoflagellates are of particular interest to evolutionary biologists, as these microorganisms serve as a useful model for reconstructions of the last unicellular ancestor of animals.<br><br>
+
+The goal is to construct a computer-generated 3D model that simulates the movement of choanoflagellates in viscous fluids. The body structure of a choanoflagellate is modeled using a discretized ellipsoidal head, a rotating helical-shaped flagellum, and vector lines of microvilli that follow Hooke’s law to capture its elasticity. Viscous fluid dynamics is modeled using Stokes equations with regularized Stokeslets and the surrounding particles follow the dynamics induced by the interaction of water and the entire body of the choanoflagellate.<br><br>
+
+The entire simulation model is coded and built from scratch in MATLAB on my own with little guidance from my mentor.</p>
+
+<h3>Birds.</h3>
+<p>In the world of birds, males are more colorful or ornamented physically than females in most species. Female birds typically select their mates based on the overall attractiveness of the male birds.<br><br>
+
+The goal is to find out if the amount of investment a female bird would put into her egg depended on the attractiveness of her mate (differential allocation) and the degree of polygamy. Effect size data from 31 different empirical studies of 20 bird species is collected. Given that related species are more closely associated with each other, a phylogenetic tree of bird species is employed in a Generalized Least Squares Model to account for the correlated structure. Predictors of the model include experiment type, degree of polygamy, features that indicate egg investment (i.e. androgens, egg size, yolk mass, etc.), and interaction terms.<br><br>
+
+The regression model is coded and built in R in collaboration with my mentor. Model fit is improved by 12% after incorporating the bird phylogenetic tree. It yields support for differential allocation and that the degree of polygamy in bird species is an important contributor.</p>
+
+<h3>Risk.</h3>
+<p>Investments involve taking on a lot of risk. One measure to estimate the risk of loss is the value of risk (VaR).  With a given probability, it estimates how much money a portfolio might lose in a set time period.<br><br>
+
+The goal is to gauge the VaR of a portfolio of stocks during the 2007-2008 financial crisis. 15 years of daily stock price data is collected to cover the periods before, during, and after the stressed period of the crisis. Historical simulation and model-building techniques are implemented with time weighted and volatility updating methods such as exponentially weighted moving average (EWMA) and generalized autoregressive conditional heteroskedasticity (GARCH). Later, stable distributions are incorporated in the mean-conditional value at risk (M-CVaR) optimization to analyze the effects of heavy-tailed market data distribution’s higher moments, which yields 15% lower risk in the recommended portfolio allocation when compared to the traditional mean-variance optimization.<br><br>
+
+The simulations and models are coded and built from scratch in R on my own with little guidance from my mentor.</p>
+
+<h3>Fraud.</h3>
+<p>Credit card fraud poses a big problem in the financial industry. Millions of dollars in losses resulting from financial fraud have occurred in the recent years.<br><br>
+
+The goal is to correctly classify fraudulent credit card activity when a transaction occurs. Credit card fraud data from the Université Libre de Bruxelles Machine Learning Group is taken for a closer examination. Data exploration shows that the data exhibits class imbalance, where there are more data points that are non-fraudulent than fraudulent. This can lead to inaccurate model predictions when the data is left untreated, making detection of a fraud difficult. Over-sampling and under-sampling methods with standard and robust variable scaling are tested in training basic machine learning models such as logistic regression, random forest, gradient boosting and neural network. Appropriate data processing pipeline is applied to prevent data leakage, which could make model predictions overly optimistic. Feature dimension is later reduced by analyzing feature importance and variance inflation factors. Models are then optimized and tuned with grid search. Learning curves, the confusion matrix, receiver operating characteristic (ROC) curves, precision-recall curves, and k-fold cross validation help to evaluate models.<br><br>
+
+The data exploration and training of models are coded in Python on my own.</p><br><br>
+
+<h4>Other Mini-Projects for the Purpose of Getting Acquainted with a Programming Language or Exploring an Industry</h4>
+<p>Antivirus Preference Survey Experiment Using SurveyMonkey<br>
+Customer Optimization Using Click-Through Rate in SAS<br>
+Credit Card Default Classification in R<br>
+Travel Booking Data Exploration in Python</p>
