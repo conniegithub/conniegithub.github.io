@@ -1,5 +1,5 @@
-theme: plainwhite
+theme: jekyll-theme-hydeout
 title: Connie's Blog
 description: Welcome to my page! This site will showcase the various coding and analytics projects I have done in the past.
 paginate: 5
-remote_theme: samarsault/plainwhite-jekyll
+remote_theme: fongandrew/hydeout
