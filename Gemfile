@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem "plainwhite"
+gem "jekyll-theme-hydeout", "~> 4.1"
