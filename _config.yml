@@ -2,6 +2,7 @@ theme: jekyll-theme-leap-day
 title: Connie's Blog
 description: Welcome to my page!
 paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 url: https://conniegithub.github.io
 domain: conniegithub.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://conniegithub.github.io # the base hostname and protocol for your site, e.g. http://example.com
